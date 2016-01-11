@@ -1,0 +1,15 @@
+{
+    "name": "torfs/volt-intellisense",
+    "description": "Enables intellisense for the Phalcon framework View Helpers in PhpStorm.",
+    "authors": [
+        {
+            "name": "Kristof Torfs",
+            "email": "kristof@torfs.org"
+        }
+    ],
+    "license": "MIT",
+    "keywords": ["phalcon", "volt", "intellisense", "autocomplete", "phpstorm", "jetbrains", "webstorm"],
+    "require": {
+        "twig/twig": "^1.23"
+    }
+}
