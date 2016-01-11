@@ -1,6 +1,11 @@
 {
     "name": "torfs/volt-intellisense",
     "description": "Enables intellisense for the Phalcon framework View Helpers in PhpStorm.",
+    "homepage": "https://github.com/kristoftorfs/volt-intellisense",
+    "support": {
+        "issues": "https://github.com/kristoftorfs/volt-intellisense/issues",
+        "source": "https://github.com/kristoftorfs/volt-intellisense"
+    },
     "authors": [
         {
             "name": "Kristof Torfs",
