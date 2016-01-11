@@ -19,6 +19,7 @@ class Generator {
         foreach($methods as $method) {
             if (in_array($method->getName(), $skip)) continue;
             $name = lcfirst(\Phalcon\Text::uncamelize($method->getName()));
+            if ($method->getName() == 'getDocType') $name = 'get_doctype';
             $callable = sprintf('Phalcon\\Tag::%s', $method->getName());
             $functions[] = sprintf("new Twig_SimpleFunction('%s', '%s')", $name, $callable);
         }
