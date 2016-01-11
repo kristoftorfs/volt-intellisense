@@ -4,7 +4,8 @@
     "homepage": "https://github.com/kristoftorfs/volt-intellisense",
     "support": {
         "issues": "https://github.com/kristoftorfs/volt-intellisense/issues",
-        "source": "https://github.com/kristoftorfs/volt-intellisense"
+        "source": "https://github.com/kristoftorfs/volt-intellisense",
+        "docs": "https://github.com/kristoftorfs/volt-intellisense/blob/master/README.md"
     },
     "authors": [
         {
