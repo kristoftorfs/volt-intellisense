@@ -11,7 +11,7 @@ $parser = (new ParserFactory())->create(ParserFactory::PREFER_PHP7);
 try {
     $statements = $parser->parse((new Generator())->getCode());
     $beautified = (new Beautifier())->prettyPrintFile($statements);
-    file_put_contents(__DIR__ . '/VoltIntellisense.php', $beautified);
+    file_put_contents(__DIR__ . '/VoltIntellisense/Intellisense.php', $beautified);
     echo "\n", 'Generation complete', "\n";
     echo '-------------------', "\n", "\n";
     echo $beautified, "\n";
