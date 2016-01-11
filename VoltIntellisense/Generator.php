@@ -12,7 +12,8 @@ class Generator {
         // Functions
         $skip = [
             'getEscaper', 'renderAttributes', 'setDI', 'getDI', 'getUrlService', 'getEscaperService',
-            'setAutoescape', 'setDefault', 'setDefaults', 'displayTo', 'hasValue', 'getValue', 'resetInput'
+            'setAutoescape', 'setDefault', 'setDefaults', 'displayTo', 'hasValue', 'getValue', 'resetInput',
+            'setTitle', 'setTitleSeparator', 'appendTitle', 'prependTitle', 'setDocType'
         ];
         $functions = [];
         foreach($methods as $method) {
